@@ -316,12 +316,12 @@ public class MyString {
         return true;
     }
 
+
+    //@NotNull
     @Override
     public String toString() {
         return new String(data);
     }
-
-    //@NotNull
     private static char[] stringToCharArray(String str) {
         if (str == null) {
             return new char[0];
